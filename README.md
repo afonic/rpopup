@@ -18,4 +18,4 @@ Options:
 
 ## Install
 
-Download the module [rPopup](https://github.com/afonic/rpopup/archive/master.zip) and install it. Publish it in any position and it will work.
+Download the module [rPopup](https://github.com/afonic/rpopup/archive/master.zip) and install it. Publish it in any position that fits your site and it will work.

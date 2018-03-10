@@ -78,7 +78,7 @@ $(document).ready(function() {
 		<?php endif; ?>
 		setCookie(id);
 		$('#rpopup-'+id).removeClass('open');
-		setTimeout(function(){window.location = href;}, 500);	
+		window.location = href;
 	});
 });
 </script>

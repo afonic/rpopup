@@ -37,7 +37,7 @@ if ($banner->state == 0){
 
 //If the date has passed, do not show
 $now = new DateTime;
-if (DateTime::createFromFormat('Y-m-d H:i:s', $banner->publish_down) < $now) {
+if ((DateTime::createFromFormat('Y-m-d H:i:s', $banner->publish_down) < $now) && ($banner->publish_down != '0000-00-00 00:00:00')) {
 	return;
 }
 
